@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+const layout = ({ children }) => {
     return (
         <div>
-            Footer
+            {children}
         </div>
     );
 };
 
-export default Footer;
+export default layout;
