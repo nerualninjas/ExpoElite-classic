@@ -1,3 +1,4 @@
+import Footer from "@/Components/Shared/Footer";
 import Navbar from "@/Components/Shared/Navbar";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
       <Navbar />
       Home Page
+      <Footer></Footer>
     </div>
   )
 }
