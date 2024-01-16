@@ -1,9 +1,11 @@
+import Featured from '@/Components/HomePage/Featured';
 import React from 'react';
 
 const HomePage = () => {
     return (
         <div>
-            Home Page
+            <Featured />
+
         </div>
     );
 };
