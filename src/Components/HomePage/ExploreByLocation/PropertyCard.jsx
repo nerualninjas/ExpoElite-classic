@@ -1,13 +1,13 @@
-import React from 'react';
-import Image from 'next/image';
+// import React from 'react';
+// import Image from 'next/image';
 
-const PropertyCard = ({image}) => {
+// const PropertyCard = ({image}) => {
 
-    return (
-        <div>
-           
-        </div>
-    );
-};
+//     return (
+//         <div>
+            
+//         </div>
+//     );
+// };
 
-export default PropertyCard;
+// export default PropertyCard;
