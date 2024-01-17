@@ -5,7 +5,7 @@ import { CiCircleMinus , CiCirclePlus } from "react-icons/ci";
 const AccordianItems = ({open,toggle, title, desc}) => {
     return (
         <div className="pt-4">
-            <div className='flex justify-between items-center cursor-pointer border-2 my-1 p-4 rounded border-[#005A44]' onClick={toggle}>
+            <div className='flex justify-between items-center cursor-pointer border-2 my-1 p-4 rounded border-[#005A44] hover:bg-white text-white hover:text-[#0c7e5c]' onClick={toggle}>
                 <p className=''>{title}</p>
                 {/* toggle icons */}
                 <div>
@@ -13,7 +13,7 @@ const AccordianItems = ({open,toggle, title, desc}) => {
                 </div>
             </div>
             <Collapse isOpened={open}> 
-                <div className='border-2 text-sm p-4 rounded border-[#005A44]'>{desc}</div>
+                <div className='border-2 text-sm p-4 rounded border-[#005A44] hover:bg-white text-white hover:text-[#0c7e5c]'>{desc}</div>
             </Collapse>
         </div>
     );

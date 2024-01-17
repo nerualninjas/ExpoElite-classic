@@ -22,7 +22,7 @@ const Review = () => {
                 <h2 className="text-center text-4xl font-bold text-[#212121]">
                     What our Client's Saying
                 </h2>
-                <h4 className="text-center py-2">hear from our customers ........</h4>
+                <h4 className="text-center py-2">Hear from our customers ........</h4>
             </div>
 
             {/* ----------------------------review carousal container-------------------------------- */}

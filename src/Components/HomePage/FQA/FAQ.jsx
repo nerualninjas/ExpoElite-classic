@@ -32,12 +32,16 @@ const FAQ = () => {
         }
     ]
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center mx-4 py-1 px-4 rounded">
+        <div>
+             <h1 className="text-center text-4xl lg:text-5xl font-bold text-[#212121] mb-2">Our Statistics</h1>
+             <div className="flex flex-col md:flex-row items-center justify-center mx-4 py-1 px-4 rounded">
+            {/* animation used */}
             <div className="w-1/3 md:w-1/2 mt-16 md:mt-1">
                 <Lottie animationData={Ex} loop={true} />
             </div>
             <div className="w-2/3 md:w-1/2 mt-16 md:mt-1">
                 <section className="bg-[#0c7e5c] rounded py-4">
+                    {/* dyanamic data load */}
                     <div className="text-white text-xl px-8">
                         {accourdianData.map((item, index) => (
                             <AccordianItems open={open === index} toggle={() => toggle(index)} key={index} title={item.title} desc={item.desc} />
@@ -46,6 +50,8 @@ const FAQ = () => {
                 </section>
             </div>
         </div>
+        </div>
+        
     );
 };
 
