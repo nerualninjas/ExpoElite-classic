@@ -1,3 +1,5 @@
+import ExploreProperty from '@/Components/HomePage/ExploreByLocation/ExploreProperty';
+import PropertyCard from '@/Components/HomePage/ExploreByLocation/PropertyCard';
 import FAQ from '@/Components/HomePage/FQA/FAQ';
 import Featured from '@/Components/HomePage/Featured';
 import Count from '@/Components/HomePage/Statistics/Count';
@@ -11,7 +13,7 @@ const HomePage = () => {
             <Count />
             <Review />
             <FAQ />
-
+            <ExploreProperty />
         </div>
     );
 };
