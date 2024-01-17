@@ -32,7 +32,7 @@ const ExploreProperty = () => {
                         }
                         {
                             properties?.map(property => <div key={property._id} className="flex w-full max-w-[18rem] flex-col place-items-center mx-auto bg-white bg-clip-border shadow">
-                                <Image width={300} height={400} src={property.image} alt="house" />
+                                <Image width={300} height={400} className='rounded-lg' src={property.image} alt="house" />
                             </div>)
 
                         }
