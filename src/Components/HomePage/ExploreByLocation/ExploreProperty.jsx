@@ -21,7 +21,7 @@ const ExploreProperty = () => {
         <div>
             <div>
                 <div className="py-10 mt-10  text-center">
-                    <h1 className="lg:text-5xl text-3xl font-bold mb-8 text-black dark:text-white">Explore By Location</h1>
+                    <h1 className="lg:text-4xl text-3xl font-bold mb-8 text-black dark:text-white">Explore By Location</h1>
                     <p className="lg:text-md  text-sm font-medium pb-10 dark:text-white">
                         Explore your desire property and purchase by your preference</p>
 
