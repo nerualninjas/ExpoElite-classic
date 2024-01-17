@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@smastrom/react-rating": "^1.4.0",
+    "lottie-react": "^2.4.0",
     "next": "14.0.4",
     "react": "^18",
     "react-card-carousel": "^1.1.3",
+    "react-collapse": "^5.1.1",
     "react-dom": "^18",
     "react-icons": "^5.0.1"
   },

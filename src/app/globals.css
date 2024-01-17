@@ -26,3 +26,8 @@ body {
     )
     rgb(var(--bg-delete));
 } 
+
+/* FAQ css */
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
