@@ -6,7 +6,7 @@ const SuccessfulStory = () => {
         <div>
             <div>
                 <div className="py-10 mt-10 text-center">
-                    <h1 className="lg:text-5xl text-3xl font-bold mb-8 text-black">Read successful stories</h1>
+                    <h1 className="text-4xl pb-16 pt-8 font-semibold  text-[##54595F]">Read successful stories</h1>
                     <p className="lg:text-xl  text-sm font-medium pb-10 ">
                         Read the successful stories of ExpoElite </p>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10'>
