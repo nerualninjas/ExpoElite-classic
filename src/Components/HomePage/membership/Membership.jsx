@@ -15,7 +15,7 @@ const Membership = () => {
                 <h4 className="text-center py-2">Tailored Choices: Select Your Ideal Package for a Personalized Experience</h4>
             </div>
             <div className=" mx-auto w-full body flex flex-col lg:flex-row justify-around items-center gap-5">
-                <div className=" membership-card card w-[400px] bg-base-100 shadow-xl">
+                <div className=" membership-card card w-[400px] bg-base-100 shadow-md mb-5">
 
                     <div className="card-body items-center text-center">
 
@@ -36,7 +36,7 @@ const Membership = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" membership-card card w-[400px] bg-base-100 shadow-xl">
+                <div className=" membership-card card w-[400px] bg-base-100 shadow-xl mb-5">
 
                     <div className="card-body items-center text-center">
                         <div className="">
@@ -58,7 +58,7 @@ const Membership = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" membership-card card w-[400px] bg-base-100 shadow-xl">
+                <div className=" membership-card card w-[400px] bg-base-100 shadow-md mb-5">
 
                     <div className="card-body items-center text-center">
                        
