@@ -20,7 +20,7 @@ const Review = () => {
             {/* ----------------------------review section header-------------------------------- */}
             <div className='w-full text-center '>
                 <h2 className="text-center text-4xl font-bold text-[#212121]">
-                    What our Client's Saying
+                    What our Client&apos;s Saying
                 </h2>
                 <h4 className="text-center py-2">Hear from our customers, Voices of Satisfaction and Success</h4>
             </div>
@@ -205,7 +205,7 @@ const Review = () => {
                     </div>
 
 
-                      {/* ----------------------------review card 5-------------------------------- */}
+                    {/* ----------------------------review card 5-------------------------------- */}
                     <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
