@@ -6,7 +6,7 @@ const Values = () => {
         Our values
       </h2>
 
-      <div className="grid grid-cols-3 gap-8 px-8">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-8">
         <div className=" ">
           <figure className="pl-8">
             <svg viewBox="0 0 64 64" width="64" height="64">
