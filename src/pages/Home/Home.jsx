@@ -1,3 +1,4 @@
+import SuccessfulStory from '@/Components/AboutPage/SuccessfulStory/SuccessfulStory';
 import ExploreProperty from '@/Components/HomePage/ExploreByLocation/ExploreProperty';
 import PropertyCard from '@/Components/HomePage/ExploreByLocation/PropertyCard';
 import FAQ from '@/Components/HomePage/FQA/FAQ';
@@ -10,6 +11,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div>
+            
             <Featured />
             <Count />
             <Review />
