@@ -5,7 +5,7 @@ const Featured = () => {
         Featured Property Types
       </h2>
       <h4 className="text-center py-2">Find All type of Property </h4>
-      <div className="grid grid-cols-5 gap-4 lg:px-32 py-4">
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4 lg:px-32 py-4">
         <div className="card bg-base-100 shadow-xl">
           <figure className="px-6 pt-4 m-6">
             <img
@@ -15,10 +15,8 @@ const Featured = () => {
             />
           </figure>
           <div className="card-body p-3 items-center text-center">
-            <h2 className="card-title text-sm  ">Shoes!</h2>
-            <p className="text-sm">
-              If a dog chews shoes whose shoes does he choose?
-            </p>
+            <h2 className="card-title text-sm  ">dynamic value property</h2>
+            <p className="text-xs">dynamic value property number</p>
           </div>
         </div>
         <div className="card bg-base-100 shadow-xl">
@@ -30,12 +28,11 @@ const Featured = () => {
             />
           </figure>
           <div className="card-body p-3 items-center text-center">
-            <h2 className="card-title text-sm  ">Shoes!</h2>
-            <p className="text-sm">
-              If a dog chews shoes whose shoes does he choose?
-            </p>
+            <h2 className="card-title text-sm  ">dynamic value property</h2>
+            <p className="text-xs">dynamic value property number</p>
           </div>
-        </div>        <div className="card bg-base-100 shadow-xl">
+        </div>{" "}
+        <div className="card bg-base-100 shadow-xl">
           <figure className="px-6 pt-4 m-6">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1040/1040993.png"
@@ -44,12 +41,11 @@ const Featured = () => {
             />
           </figure>
           <div className="card-body p-3 items-center text-center">
-            <h2 className="card-title text-sm  ">Shoes!</h2>
-            <p className="text-sm">
-              If a dog chews shoes whose shoes does he choose?
-            </p>
+            <h2 className="card-title text-sm  ">dynamic value property</h2>
+            <p className="text-xs">dynamic value property number</p>
           </div>
-        </div>        <div className="card bg-base-100 shadow-xl">
+        </div>{" "}
+        <div className="card bg-base-100 shadow-xl">
           <figure className="px-6 pt-4 m-6">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1040/1040993.png"
@@ -58,12 +54,11 @@ const Featured = () => {
             />
           </figure>
           <div className="card-body p-3 items-center text-center">
-            <h2 className="card-title text-sm  ">Shoes!</h2>
-            <p className="text-sm">
-              If a dog chews shoes whose shoes does he choose?
-            </p>
+            <h2 className="card-title text-sm  ">dynamic value property</h2>
+            <p className="text-xs">dynamic value property number</p>
           </div>
-        </div>        <div className="card bg-base-100 shadow-xl">
+        </div>{" "}
+        <div className="card bg-base-100 shadow-xl">
           <figure className="px-6 pt-4 m-6">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1040/1040993.png"
@@ -72,10 +67,8 @@ const Featured = () => {
             />
           </figure>
           <div className="card-body p-3 items-center text-center">
-            <h2 className="card-title text-sm  ">Shoes!</h2>
-            <p className="text-sm">
-              If a dog chews shoes whose shoes does he choose?
-            </p>
+            <h2 className="card-title text-sm  ">dynamic value property</h2>
+            <p className="text-xs">dynamic value property number</p>
           </div>
         </div>
       </div>
