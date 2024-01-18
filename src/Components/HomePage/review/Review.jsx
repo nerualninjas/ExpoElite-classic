@@ -22,11 +22,11 @@ const Review = () => {
                 <h2 className="text-center text-4xl font-bold text-[#212121]">
                     What our Client's Saying
                 </h2>
-                <h4 className="text-center py-2">hear from our customers ........</h4>
+                <h4 className="text-center py-2">Client Testimonials: Voices of Satisfaction and Success</h4>
             </div>
 
             {/* ----------------------------review carousal container-------------------------------- */}
-            <div className='review-container shadow-xl'>
+            <div className='review-container '>
 
                 <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
 
