@@ -1,7 +1,7 @@
 /* Container style */
 .review-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     flex: 1;

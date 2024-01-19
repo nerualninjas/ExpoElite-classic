@@ -16,19 +16,19 @@ const Review = () => {
 
 
     return (
-        <div className='container mx-auto  min-h-[100vh] flex flex-col justify-center items-center'>
+        <div className='container mx-auto mt-10  flex flex-col justify-center items-center'>
             {/* ----------------------------review section header-------------------------------- */}
-            <div className='container mx-auto  mb-10 text-center w-full'>
+            <div className='container mx-auto  mb-5 text-center w-full'>
                 <h2 className="text-center text-4xl font-bold text-[#212121]">
                     What our Client&apos;s Saying
                 </h2>
 
-                <h4 className="text-center mt-3 mb-20 sm:mb-10 md:mb-5">Our Customers Voices of Satisfaction and Success</h4>
+                <h4 className="text-center mt-3 mb-10 sm:mb-5 md:mb-5">Our Customers Voices of Satisfaction and Success</h4>
 
             </div>
 
             {/* ----------------------------review carousal container-------------------------------- */}
-            <div className='mx-auto review-container mb-10'>
+            <div className='mx-auto review-container mb-0'>
 
                 <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
 
@@ -48,7 +48,7 @@ const Review = () => {
 
 
                                 </div>
-                              
+
                                 {/* <hr className='hrStyle' /> */}
                                 <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
 
