@@ -2,7 +2,7 @@ const Values = () => {
   return (
     <div className="  px-4 py-8 bg-[#F8F8F8]">
       <div className="  w-24 border border-[#067F5C]  "></div>
-      <h2 className="text-4xl pb-16 pt-8 font-semibold  text-[##54595F]">
+      <h2 className="text-4xl pb-16 pt-8 font-semibold text-[##54595F]">
         Our values
       </h2>
 

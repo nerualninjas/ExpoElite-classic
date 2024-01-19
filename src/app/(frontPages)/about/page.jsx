@@ -1,3 +1,4 @@
+import SuccessfulStory from '@/Components/AboutPage/SuccessfulStory/SuccessfulStory';
 import MeetOurTeam from '@/Components/AboutPage/Values/MeetOurTeam';
 import Values from '@/Components/AboutPage/Values/Values';
 import OurMission from '@/Components/AboutPage/ourMission/OurMission';
@@ -9,11 +10,9 @@ const AboutPage = () => {
 
          
             <OurMission />
-            <Values/>
-=======
-
-        
+            <Values/>   
             <MeetOurTeam />
+            <SuccessfulStory />
 
         </div>
     );
