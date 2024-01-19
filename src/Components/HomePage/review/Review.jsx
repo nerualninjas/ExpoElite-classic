@@ -16,22 +16,24 @@ const Review = () => {
 
 
     return (
-        <div>
+        <div className='container mx-auto  min-h-[100vh] flex flex-col justify-center items-center'>
             {/* ----------------------------review section header-------------------------------- */}
-            <div className='w-full text-center '>
+            <div className='container mx-auto  mb-10 text-center w-full'>
                 <h2 className="text-center text-4xl font-bold text-[#212121]">
-                    What our Client's Saying
+                    What our Client&apos;s Saying
                 </h2>
-                <h4 className="text-center py-2">Hear from our customers ........</h4>
+
+                <h4 className="text-center mt-3 mb-20 sm:mb-10 md:mb-5">Our Customers Voices of Satisfaction and Success</h4>
+
             </div>
 
             {/* ----------------------------review carousal container-------------------------------- */}
-            <div className='review-container shadow-xl'>
+            <div className='mx-auto review-container mb-10'>
 
                 <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
 
                     {/* ----------------------------review card 1-------------------------------- */}
-                    <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
+                    <div className='review-card max-w-[300px] min-h-[400px] md:max-w-[480px] md:min-h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
 
@@ -46,11 +48,12 @@ const Review = () => {
 
 
                                 </div>
-                                {/* className={this.hoverHrStyle} */}
-                                <hr className='hrStyle' />
+                              
+                                {/* <hr className='hrStyle' /> */}
+                                <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
 
 
-                                <div className=" flex items-center justify-start w-full  ml-3 mt-3">
+                                <div className=" flex flex-col sm:flex-row items-center justify-center sm:justify-start w-full  ml-3 mt-3">
                                     <div>
 
                                         <Image src={member2} alt="Shoes" className="rounded-full w-[50px] h-[50px]" />
@@ -75,7 +78,7 @@ const Review = () => {
                     </div>
 
                     {/* ----------------------------review card 2-------------------------------- */}
-                    <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
+                    <div className='review-card max-w-[300px] min-h-[400px] md:max-w-[480px] md:min-h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
 
@@ -93,7 +96,7 @@ const Review = () => {
                                 <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
 
 
-                                <div className=" flex items-center justify-start w-full  ml-3 mt-3">
+                                <div className=" flex flex-col sm:flex-row items-center justify-center sm:justify-start w-full  ml-3 mt-3">
                                     <div>
 
                                         <Image src={member3} alt="Shoes" className="rounded-full w-[50px] h-[50px]" />
@@ -118,7 +121,7 @@ const Review = () => {
                     </div>
 
                     {/* ----------------------------review card 3-------------------------------- */}
-                    <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
+                    <div className='review-card max-w-[300px] min-h-[400px] md:max-w-[480px] md:min-h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
 
@@ -133,10 +136,10 @@ const Review = () => {
 
 
                                 </div>
-                                <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
+                                <hr className="w-full h-[1px] mx-0  bg-[#FFF] " />
 
 
-                                <div className=" flex items-center justify-start w-full  ml-3 mt-3">
+                                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start w-full  ml-3 mt-3">
                                     <div>
 
                                         <Image src={member4} alt="member" className="rounded-full w-[50px] h-[50px]" />
@@ -162,7 +165,7 @@ const Review = () => {
 
 
                     {/* ----------------------------review card 4-------------------------------- */}
-                    <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
+                    <div className='review-card max-w-[300px] min-h-[400px] md:max-w-[480px] md:min-h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
 
@@ -180,7 +183,7 @@ const Review = () => {
                                 <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
 
 
-                                <div className=" flex items-center justify-start w-full  ml-3 mt-3">
+                                <div className=" flex flex-col sm:flex-row items-center justify-center sm:justify-start w-full  ml-3 mt-3">
                                     <div>
 
                                         <Image src={member2} alt="Shoes" className="rounded-full w-[50px] h-[50px]" />
@@ -205,8 +208,8 @@ const Review = () => {
                     </div>
 
 
-                      {/* ----------------------------review card 5-------------------------------- */}
-                    <div className='review-card w-[300px] h-[400px] md:w-[480px] md:h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
+                    {/* ----------------------------review card 5-------------------------------- */}
+                    <div className='review-card max-w-[300px] min-h-[400px] md:max-w-[480px] md:min-h-[300px] bg-[#0C7E5C] text-white hover:bg-[#FFF] hover:text-[#0C7E5C]' >
 
                         <div className=" w-full h-full bg-cover ">
 
@@ -224,7 +227,7 @@ const Review = () => {
                                 <hr className="w-full h-[1px] mx-0  bg-[#FFF] hover:bg-[#0C7E5C]" />
 
 
-                                <div className=" flex items-center justify-start w-full  ml-3 mt-3">
+                                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start w-full  ml-3 mt-3">
                                     <div>
 
                                         <Image src={member3} alt="Shoes" className="rounded-full w-[50px] h-[50px]" />
