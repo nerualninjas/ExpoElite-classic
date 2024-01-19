@@ -5,9 +5,9 @@ const SuccessfulStory = () => {
     return (
         <div>
             <div>
-                <div className="py-10 mt-10 text-center">
-                    <h1 className="lg:text-5xl text-3xl font-bold mb-8 text-black">Read successful stories</h1>
-                    <p className="lg:text-xl  text-sm font-medium pb-10 ">
+                <div className="py-10 my-10 text-center">
+                    <h1 className="lg:text-3xl text-2xl font-bold mb-8 text-black">Read successful stories</h1>
+                    <p className="lg:text-lg  text-sm font-medium pb-10 ">
                         Read the successful stories of ExpoElite </p>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10'>
                         <div className="relative flex flex-col w-full max-w-[18rem] mx-auto bg-white">

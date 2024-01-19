@@ -33,7 +33,7 @@ const FAQ = () => {
     ]
     return (
         <div>
-             <h1 className="text-center text-4xl lg:text-5xl font-bold text-[#212121] mb-2">Our Statistics</h1>
+             <h1 className="text-center text-4xl lg:text-5xl font-bold text-[#212121] mb-2">Frequently Asked Question</h1>
              <div className="flex flex-col md:flex-row items-center justify-center mx-4 py-1 px-4 rounded">
             {/* animation used */}
             <div className="w-1/3 md:w-1/2 mt-16 md:mt-1">
